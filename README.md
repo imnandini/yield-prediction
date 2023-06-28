@@ -11,25 +11,19 @@ In this competition we are expected to build a machine learning model(s) that co
 There are 5 datasets along with a sample submission file provided to you in this 
 competition. The datasets are named as follows:
 ● ‘train_data.csv’:
-○ date: The timestamp at which the yield of the food processing farm 
-was measured
-○ farm_id: The farm identifier that recognizes the farm food processing 
-plant
-○ ingredient_type: The type of ingredient being produced
-○ yield: The yield of the plant in tonnes
+1. date: The timestamp at which the yield of the food processing farm was measured
+2. farm_id: The farm identifier that recognizes the farm food processing plant
+3. ingredient_type: The type of ingredient being produced
+4. yield: The yield of the plant in tonnes
 ● ‘farm_data.csv’:
-○ farm_id: The farm identifier that recognizes the farm food processing 
-plant
-○ founding_year: They year when the operations commenced on the 
-farm and food processing plant. 
-○ num_processing_plants: The number of processing plants present 
-on the farm
-○ farm_area: The area of the farm in square meters
-○ farming_company: The company that owns the farms
-○ deidentified_location: The location at which the farm is present
+1. farm_id: The farm identifier that recognizes the farm food processing plant
+2. founding_year: They year when the operations commenced on the farm and food processing plant. 
+3. num_processing_plants: The number of processing plants present on the farm
+4. farm_area: The area of the farm in square meters
+5. farming_company: The company that owns the farms
+6. deidentified_location: The location at which the farm is present
 ● ‘train_weather.csv’:
-○ For each location where the farms are present, the weather data is 
-also provided by timestamp
+1. For each location where the farms are present, the weather data is also provided by timestamp
 ● ‘test_data.csv’ and ‘test_weather.csv’ are also provided to you
 
 #### Objectives:
